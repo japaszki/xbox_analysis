@@ -1,0 +1,202 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="2630741561" file="\\cernhomej.cern.ch\j\japaszki\Public\XBOX\xbox_analysis\new_analyser\BD_Analyser.prj" location="\\cernhomej.cern.ch\j\japaszki\Public\XBOX\xbox_analysis\new_analyser" name="BD_Analyser" preferred-package-location="\\cernhomej.cern.ch\j\japaszki\Public\XBOX\xbox_analysis\new_analyser\BD_Analyser\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>BD_Analyser</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>0.61</param.version>
+    <param.authnamewatermark>Jan Paszkiewicz</param.authnamewatermark>
+    <param.email />
+    <param.company>CERN</param.company>
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\XBox\BD_Analyser\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\BD_Analyser\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\BD_Analyser\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\BD_Analyser\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\BD_Analyser</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>false</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.email />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.combo />
+      <param.logo />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\analyser_gui.m</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package>
+      <file>${PROJECT_ROOT}\add_to_log.m</file>
+      <file>${PROJECT_ROOT}\analyser_gui.fig</file>
+      <file>${PROJECT_ROOT}\analyser_gui.m</file>
+      <file>${PROJECT_ROOT}\analyser_main.m</file>
+      <file>${PROJECT_ROOT}\bd_analysis.m</file>
+      <file>${PROJECT_ROOT}\bd_distributions.m</file>
+      <file>${PROJECT_ROOT}\bd_filter.m</file>
+      <file>${PROJECT_ROOT}\bd_locator.m</file>
+      <file>${PROJECT_ROOT}\bd_plotter.m</file>
+      <file>${PROJECT_ROOT}\construct_bd_list_xb_1.m</file>
+      <file>${PROJECT_ROOT}\construct_bd_list_xb_2_3.m</file>
+      <file>${PROJECT_ROOT}\data_read_example.m</file>
+      <file>${PROJECT_ROOT}\generate_debug_plots.m</file>
+      <file>${PROJECT_ROOT}\make_matfiles.m</file>
+      <file>${PROJECT_ROOT}\make_matfiles_gui.fig</file>
+      <file>${PROJECT_ROOT}\make_matfiles_gui.m</file>
+      <file>${PROJECT_ROOT}\perform_bd_localisation.m</file>
+      <file>${PROJECT_ROOT}\plot_bd_pulse.m</file>
+      <file>${PROJECT_ROOT}\prepare_bd_data.m</file>
+      <file>${PROJECT_ROOT}\process_rf_signal.m</file>
+      <file>${PROJECT_ROOT}\read_field.m</file>
+      <file>${PROJECT_ROOT}\saveTDM2mat_remove.m</file>
+      <file>${PROJECT_ROOT}\structure_bd_filter.m</file>
+      <file>${PROJECT_ROOT}\TDMS_dataToGroupChanStruct_v1.m</file>
+      <file>${PROJECT_ROOT}\TDMS_dataToGroupChanStruct_v2.m</file>
+      <file>${PROJECT_ROOT}\TDMS_dataToGroupChanStruct_v3.m</file>
+      <file>${PROJECT_ROOT}\TDMS_dataToGroupChanStruct_v4.m</file>
+      <file>${PROJECT_ROOT}\TDMS_genvarname2.m</file>
+      <file>${PROJECT_ROOT}\TDMS_getDataSize.m</file>
+      <file>${PROJECT_ROOT}\TDMS_getDataTypeName.m</file>
+      <file>${PROJECT_ROOT}\TDMS_getGroupChanNames.m</file>
+      <file>${PROJECT_ROOT}\TDMS_getPropValue.m</file>
+      <file>${PROJECT_ROOT}\TDMS_getStruct.m</file>
+      <file>${PROJECT_ROOT}\TDMS_getTypeSeekSizes.m</file>
+      <file>${PROJECT_ROOT}\TDMS_handleGetDataOption.m</file>
+      <file>${PROJECT_ROOT}\TDMS_initData.m</file>
+      <file>${PROJECT_ROOT}\TDMS_preprocessFile.m</file>
+      <file>${PROJECT_ROOT}\TDMS_processLeadIn.m</file>
+      <file>${PROJECT_ROOT}\TDMS_readChannelOrGroup.m</file>
+      <file>${PROJECT_ROOT}\TDMS_readFileHelper_v1.m</file>
+      <file>${PROJECT_ROOT}\TDMS_readFileHelper_v2.m</file>
+      <file>${PROJECT_ROOT}\TDMS_readTDMSFile.m</file>
+      <file>${PROJECT_ROOT}\TDMS_retrievingSubsets.m</file>
+      <file>${PROJECT_ROOT}\update_parameters.m</file>
+    </fileset.package>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\add_to_log.m</file>
+      <file>${PROJECT_ROOT}\analyser_gui.fig</file>
+      <file>${PROJECT_ROOT}\bd_locator.m</file>
+      <file>${PROJECT_ROOT}\bd_plotter.m</file>
+      <file>${PROJECT_ROOT}\construct_bd_list_xb_1.m</file>
+      <file>${PROJECT_ROOT}\construct_bd_list_xb_2_3.m</file>
+      <file>${PROJECT_ROOT}\generate_debug_plots.m</file>
+      <file>${PROJECT_ROOT}\make_matfiles.m</file>
+      <file>${PROJECT_ROOT}\make_matfiles_gui.fig</file>
+      <file>${PROJECT_ROOT}\make_matfiles_gui.m</file>
+      <file>${PROJECT_ROOT}\perform_bd_localisation.m</file>
+      <file>${PROJECT_ROOT}\prepare_bd_data.m</file>
+      <file>${PROJECT_ROOT}\process_rf_signal.m</file>
+      <file>${PROJECT_ROOT}\structure_bd_filter.m</file>
+      <file>${PROJECT_ROOT}\TDMS_dataToGroupChanStruct_v1.m</file>
+      <file>${PROJECT_ROOT}\TDMS_dataToGroupChanStruct_v2.m</file>
+      <file>${PROJECT_ROOT}\TDMS_dataToGroupChanStruct_v3.m</file>
+      <file>${PROJECT_ROOT}\TDMS_dataToGroupChanStruct_v4.m</file>
+      <file>${PROJECT_ROOT}\TDMS_genvarname2.m</file>
+      <file>${PROJECT_ROOT}\TDMS_getDataSize.m</file>
+      <file>${PROJECT_ROOT}\TDMS_getDataTypeName.m</file>
+      <file>${PROJECT_ROOT}\TDMS_getGroupChanNames.m</file>
+      <file>${PROJECT_ROOT}\TDMS_getPropValue.m</file>
+      <file>${PROJECT_ROOT}\TDMS_getStruct.m</file>
+      <file>${PROJECT_ROOT}\TDMS_getTypeSeekSizes.m</file>
+      <file>${PROJECT_ROOT}\TDMS_handleGetDataOption.m</file>
+      <file>${PROJECT_ROOT}\TDMS_initData.m</file>
+      <file>${PROJECT_ROOT}\TDMS_preprocessFile.m</file>
+      <file>${PROJECT_ROOT}\TDMS_processLeadIn.m</file>
+      <file>${PROJECT_ROOT}\TDMS_readFileHelper_v1.m</file>
+      <file>${PROJECT_ROOT}\TDMS_readFileHelper_v2.m</file>
+      <file>${PROJECT_ROOT}\TDMS_readTDMSFile.m</file>
+      <file>${PROJECT_ROOT}\update_parameters.m</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\BD_Analyser\for_testing" name="readme.txt" optional="true">\\cernhomej.cern.ch\j\japaszki\Public\XBOX\xbox_analysis\new_analyser\BD_Analyser\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\BD_Analyser\for_testing" name="splash.png" optional="false">\\cernhomej.cern.ch\j\japaszki\Public\XBOX\xbox_analysis\new_analyser\BD_Analyser\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\BD_Analyser\for_testing" name="BD_Analyser.exe" optional="false">\\cernhomej.cern.ch\j\japaszki\Public\XBOX\xbox_analysis\new_analyser\BD_Analyser\for_testing\BD_Analyser.exe</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\matlab\2016b</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="embeddedcoder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
